@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
   <head>
     <meta charset="UTF-8" />
@@ -203,7 +203,10 @@
         </div>
       </div>
       <div style="text-align: center">
-        <a href="chemin/vers/votre-cv.pdf" class="cv-btn" download
+        <a
+          href="documents/CV_MoussaTayaa_Alternance_Cyber.pdf"
+          class="cv-btn"
+          download
           >📄 Télécharger mon CV</a
         >
       </div>
@@ -300,7 +303,7 @@
         </div>
       </div>
       <div style="text-align: center">
-        <a href="chemin/vers/votre-cv.pdf" class="cv-btn" download
+        <a href="documents/Tableau-synthese-E4.xlsx" class="cv-btn" download
           >📄 Télécharger tableau de compétences</a
         >
       </div>
@@ -551,7 +554,7 @@
       function handleSubmit(e) {
         e.preventDefault();
         alert(
-          "Formulaire soumis ! Note: Pour un formulaire fonctionnel, vous devrez configurer un service backend (ex: Formspree, EmailJS) ou utiliser l'API GitHub pour créer des issues."
+          "Formulaire soumis ! Note: Pour un formulaire fonctionnel, vous devrez configurer un service backend (ex: Formspree, EmailJS) ou utiliser l'API GitHub pour créer des issues.",
         );
         e.target.reset();
       }
@@ -572,7 +575,7 @@
 
       document
         .querySelectorAll(
-          ".competence-card, .projet-card, .timeline-item, .epreuve-card, .veille-card"
+          ".competence-card, .projet-card, .timeline-item, .epreuve-card, .veille-card",
         )
         .forEach((el) => {
           el.style.opacity = "0";
