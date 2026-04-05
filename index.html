@@ -3,168 +3,284 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=DM+Serif+Display&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
-    <title>Portfolio Moussa Tayaa</title>
+    <title>Portfolio E5 – Noham Moussa Tayaa</title>
   </head>
   <body>
-    <div class="navbar">
-      <nav>
-        <h1>Portfolio SIO</h1>
-        <ul class="nav-links">
-          <li><a href="#accueil">Accueil</a></li>
-          <li><a href="#apropos">À propos</a></li>
-          <li><a href="#competences">Compétences</a></li>
-          <li><a href="#e5">Epreuves</a></li>
-          <li><a href="#projets">Projets</a></li>
-          <li><a href="#parcours">Parcours</a></li>
-          <li><a href="#veille">Veille</a></li>
-          <!-- <li><a href="#contact">Contact</a></li> -->
-        </ul>
-      </nav>
-    </div>
+    <!-- ── SIDEBAR ── -->
+    <aside class="sidebar">
+      <div class="sidebar-logo">Portfolio E5</div>
+      <div class="sidebar-sub">BTS SIO · SLAM</div>
+      <ul class="nav-links">
+        <li><a href="#accueil">Accueil</a></li>
+        <li><a href="#apropos">À propos</a></li>
+        <li><a href="#competences">Compétences</a></li>
+        <li><a href="#e5">Épreuve E5</a></li>
+        <li><a href="#projets">Projets E5</a></li>
+        <li><a href="#alternance">Alternance</a></li>
+        <li><a href="#parcours">Parcours</a></li>
+        <li><a href="#veille">Veille</a></li>
+      </ul>
+      <div class="sidebar-footer">Oral E5 – 40 min<br />Option SLAM</div>
+    </aside>
 
-    <section id="accueil" class="hero">
-      <div class="hero-content">
-        <h2>Moussa TAYAA</h2>
-        <h2>Étudiant BTS SIO</h2>
-        <p>Services Informatiques aux Organisations</p>
-        <a href="#apropos" class="btn">Découvrir mon profil</a>
-      </div>
-    </section>
-
-    <section id="apropos" class="section">
-      <h2 class="section-title">À propos de moi</h2>
-      <div class="about-content">
-        <div class="about-text">
-          <p>
-            Passionné par l'informatique et la cybersécurité, je suis
-            actuellement étudiant en BTS Services Informatiques aux
-            Organisations (SIO).
-          </p>
-          <p>
-            Je me spécialise en pentesting et développement d'outils offensive
-            et vise des certifications reconnues pour devenir un expert capable
-            d’identifier, exploiter et sécuriser des systèmes.
-          </p>
-          <p>
-            Je suis constamment en apprentissage et j'aime relever de nouveaux
-            défis techniques.
-          </p>
+    <!-- ── MAIN ── -->
+    <main class="main">
+      <!-- ACCUEIL -->
+      <section id="accueil" class="hero">
+        <span class="hero-eyebrow">Portfolio · Épreuve E5</span>
+        <h1>Noham Moussa<br />Tayaa</h1>
+        <p class="hero-desc">
+          Passionné par l'informatique et la cybersécurité, étudiant en BTS SIO
+          option SLAM. Ce portfolio présente mes projets, compétences et veille
+          technologique pour l'épreuve E5.
+        </p>
+        <div class="chips">
+          <span class="chip">BTS SIO SLAM</span>
+          <span class="chip">2024 – 2026</span>
+          <span class="chip">Alternance</span>
         </div>
-        <div class="profile-card">
-          <div class="profile-img">👨‍💻</div>
-          <h3>Noham Moussa Tayaa</h3>
-          <p style="color: var(--gray)">BTS SIO - Option SLAM</p>
-          <p style="color: var(--gray)">📧 noham.tayaa@efrei.net</p>
-          <a href="https://www.linkedin.com/in/moussatayaa/"
-            ><i class="fa-brands fa-linkedin"></i
-          ></a>
-          <a href="https://github.com/ReverseH4ck"
-            ><i class="fa-brands fa-github"></i
-          ></a>
-        </div>
-      </div>
-    </section>
+      </section>
 
-    <section id="alternance" class="section" style="background: white">
-      <h2 class="section-title">Mon alternance</h2>
-      <div class="alternance-container">
-        <div class="entreprise-info">
-          <div class="entreprise-logo">🏢</div>
-          <h3>Société Française du Livre</h3>
-          <div class="entreprise-details">
-            <p><strong>📍 Localisation :</strong> Wissous (91), France</p>
-            <p><strong>🏭 Secteur :</strong> Commerce</p>
-            <p><strong>📅 Période :</strong> Aout 2024 - Aout 2026</p>
-            <p><strong>💼 Poste :</strong> Développeur PHP</p>
-          </div>
-          <div
-            style="
-              margin-top: 1.5rem;
-              padding-top: 1.5rem;
-              border-top: 1px solid #e2e8f0;
-            "
-          >
-            <h4 style="color: var(--dark); margin-bottom: 0.8rem">À propos</h4>
-            <p style="color: var(--gray); font-size: 0.95rem; line-height: 1.6">
-              Grossisste et numero 1 de la vente de livres pour professionnel
-              (écoles, bibliotheques, librairies).
+      <!-- À PROPOS -->
+      <section id="apropos" class="page-section">
+        <div class="section-label">Présentation</div>
+        <h2 class="section-title">À propos de moi</h2>
+        <div class="about-grid">
+          <div class="about-text">
+            <p>
+              Passionné par l'informatique et la cybersécurité, je suis
+              actuellement étudiant en BTS Services Informatiques aux
+              Organisations (SIO).
+            </p>
+            <p>
+              Je me spécialise en pentesting et développement d'outils
+              offensifs, et vise des certifications reconnues pour devenir un
+              expert capable d'identifier, exploiter et sécuriser des systèmes.
             </p>
           </div>
-        </div>
-
-        <div class="missions-container">
-          <div class="mission-card">
-            <div class="mission-header">
-              <div class="mission-icon">🚀</div>
-              <div class="mission-title">
-                <h3>Projet 1 - DTS</h3>
-              </div>
+          <div class="info-card">
+            <div class="info-row">
+              <span>Formation</span>
+              <span>BTS SIO – SLAM</span>
             </div>
-            <div class="mission-description">
+            <div class="info-row">
+              <span>Promotion</span>
+              <span>2024 – 2026</span>
+            </div>
+            <div class="info-row">
+              <span>Email</span>
+              <a href="mailto:moussa.cyber@proton.me">moussa.cyber@proton.me</a>
+            </div>
+            <div class="info-row">
+              <span>LinkedIn</span>
+              <a href="https://www.linkedin.com/in/moussatayaa/" target="_blank"
+                >Mon profil</a
+              >
+            </div>
+            <div class="info-row">
+              <span>GitHub</span>
+              <a href="https://github.com/n3tspy" target="_blank">Mon GitHub</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- COMPÉTENCES -->
+      <section id="competences" class="page-section">
+        <div class="section-label">Savoir-faire</div>
+        <h2 class="section-title">Compétences</h2>
+        <div class="skills-grid">
+          <div class="skill-group">
+            <h4>Développement</h4>
+            <ul class="skill-list">
+              <li>HTML / CSS</li>
+              <li>JavaScript</li>
+              <li>PHP / MySQL</li>
+              <li>Python</li>
+            </ul>
+          </div>
+          <div class="skill-group">
+            <h4>Systèmes & Réseaux</h4>
+            <ul class="skill-list">
+              <li>Linux (Debian, Ubuntu, Kali)</li>
+              <li>Virtualisation (VMware, Proxmox)</li>
+              <li>Réseau TCP/IP</li>
+            </ul>
+          </div>
+          <!-- <div class="skill-group">
+            <h4>Sécurité</h4>
+            <ul class="skill-list">
+              <li>Cybersécurité & OWASP</li>
+              <li>Pentesting</li>
+              <li>Développement d'outils offensifs</li>
+            </ul>
+          </div> -->
+          <div class="skill-group">
+            <h4>Outils</h4>
+            <ul class="skill-list">
+              <li>Git / GitHub</li>
+              <li>Bases de données (SQL)</li>
+              <li>VSCode</li>
+              <li>Nmap</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- ÉPREUVE E5 -->
+      <section id="e5" class="page-section">
+        <div class="section-label">Oral</div>
+        <h2 class="section-title">Épreuve E5</h2>
+        <p class="section-desc">
+          Support et mise à disposition de services informatiques.
+        </p>
+        <div class="e5-grid">
+          <div class="e5-card">
+            <h4>Support & mise à disposition</h4>
+            <ul>
+              <li>Gérer le patrimoine informatique</li>
+              <li>Répondre aux incidents et aux demandes d'assistance</li>
+              <li>Développer la présence en ligne de l'organisation</li>
+              <li>Travailler en mode projet</li>
+              <li>Mettre à disposition un service informatique</li>
+            </ul>
+          </div>
+        </div>
+        <div class="e5-note">
+          📋 Durée : 40 minutes — présentation + entretien avec le jury
+        </div>
+        <a href="documents/Tableau-synthese-E5.xlsx" class="dl-btn" download
+          >↓ Tableau de synthèse E5</a
+        >
+      </section>
+
+      <!-- PROJETS E5 -->
+      <section id="projets" class="page-section">
+        <div class="section-label">Situations professionnelles</div>
+        <h2 class="section-title">Projets E5</h2>
+        <p class="section-desc">
+          Les deux situations professionnelles présentées à l'oral.
+        </p>
+        <div class="projets-list">
+          <!-- Situation 1 – à compléter -->
+          <div class="projet-card placeholder">
+            <div class="projet-header">
+              <div>
+                <!-- <span class="edit-note">✏️ À compléter</span> -->
+                <h3>Hackathon</h3>
+              </div>
+              <span class="badge">Situation 1</span>
+            </div>
+            <p class="projet-desc">
+              Création d'une entreprise fictive de 4 personnes. <br />
+              Mon rôle : Infra/DevOps, déploiement d'un serveur web avec apache2
+              pour heberger le site web de l'entreprise. <br />
+              Déploiement d'un service de ticketing (GLPI) pour la gestion des
+              demandes d'assitance.
+            </p>
+            <div class="tags">
+              <span class="tag">Debian</span>
+              <span class="tag">Apache2</span>
+              <span class="tag">GLPI</span>
+              <span class="tag">ZeroTier</span>
+            </div>
+          </div>
+
+          <!-- Situation 2 – à compléter -->
+          <div class="projet-card placeholder">
+            <div class="projet-header">
+              <div>
+                <span class="edit-note">✏️ À compléter</span>
+                <h3>Support x Cyber</h3>
+              </div>
+              <span class="badge">Situation 2</span>
+            </div>
+            <p class="projet-desc">
+              Fusion des matières "Support et mise à disposition de services
+              informatiques" et "Cybersécurité". <br />
+              Déploiement en équipe de 2 personnes d'un blog en PHP/MySQL sur un
+              serveur web et de GLPI. <br />
+              Test de vulnérabilités sur le site web (blog). Rapport de
+              vulnérabilités rédigé dans un ticket GLPI. <br />
+              Correction des failles rapportées.
+            </p>
+            <div class="tags">
+              <span class="tag">GLPI</span>
+              <span class="tag">OWASP</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ALTERNANCE -->
+      <section id="alternance" class="page-section">
+        <div class="section-label">Expérience</div>
+        <h2 class="section-title">Mon alternance</h2>
+        <div class="alternance-layout">
+          <div class="entreprise-card">
+            <h3>Société Française du Livre</h3>
+            <div class="info-row">
+              <span>Secteur</span><span>Commerce</span>
+            </div>
+            <div class="info-row">
+              <span>Lieu</span><span>Wissous (91)</span>
+            </div>
+            <div class="info-row">
+              <span>Période</span><span>Août 2024 – Août 2026</span>
+            </div>
+            <div class="info-row">
+              <span>Poste</span><span>Développeur PHP</span>
+            </div>
+            <p class="entreprise-about">
+              Grossiste et numéro 1 de la vente de livres pour les
+              professionnels (écoles, bibliothèques, librairies).
+            </p>
+          </div>
+
+          <div class="missions">
+            <div class="mission">
+              <h4>Projet 1 – DTS</h4>
               <p>
                 Description détaillée du projet réalisé au sein de l'entreprise.
                 Contexte, problématique et objectifs à atteindre.
               </p>
-            </div>
-            <div class="mission-tech">
-              <span class="tech-badge">HTML/CSS</span>
-              <span class="tech-badge">PHP</span>
-              <span class="tech-badge">MySQL</span>
-            </div>
-            <div class="mission-achievements">
-              <h4>Réalisations et compétences acquises :</h4>
+              <div class="tags mission-tags">
+                <span class="tag">HTML/CSS</span>
+                <span class="tag">PHP</span>
+                <span class="tag">MySQL</span>
+              </div>
               <ul>
                 <li>Développement d'une interface utilisateur</li>
                 <li>Traitement de données</li>
                 <li>Débogage de l'application</li>
               </ul>
             </div>
-          </div>
 
-          <div class="mission-card">
-            <div class="mission-header">
-              <div class="mission-icon">🔧</div>
-              <div class="mission-title">
-                <h3>Projet 2 - Session killer</h3>
-                <!-- <span class="mission-date">Janvier 2025 - Mars 2025</span> -->
-              </div>
-            </div>
-            <div class="mission-description">
+            <div class="mission">
+              <h4>Projet 2 – Session Killer</h4>
               <p>
                 Petit script bash qui permet d'éteindre les sessions "fantôme"
                 des utilisateurs.
               </p>
-            </div>
-            <div class="mission-tech">
-              <span class="tech-badge">Bash</span>
-            </div>
-            <div class="mission-achievements">
-              <h4>Réalisations et compétences acquises :</h4>
+              <div class="tags mission-tags">
+                <span class="tag">Bash</span>
+              </div>
               <ul>
-                <li>Automatisation de tache</li>
+                <li>Automatisation de tâche</li>
                 <li>Bash Scripting</li>
                 <li>PuTTY</li>
               </ul>
             </div>
-          </div>
 
-          <div class="mission-card">
-            <div class="mission-header">
-              <div class="mission-icon">💼</div>
-              <div class="mission-title">
-                <h3>Missions quotidiennes</h3>
-              </div>
-            </div>
-            <div class="mission-description">
+            <div class="mission">
+              <h4>Missions quotidiennes</h4>
               <p>Tâches régulières au sein de l'équipe technique.</p>
-            </div>
-            <div class="mission-achievements">
-              <h4>Missions récurrentes :</h4>
               <ul>
                 <li>Support technique aux utilisateurs</li>
                 <li>Maintenance et mise à jour des applications</li>
@@ -174,415 +290,164 @@
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section id="parcours" class="section" style="background: white">
-      <h2 class="section-title">Mon parcours</h2>
-      <div class="parcours-timeline">
-        <div class="timeline-item">
-          <div class="timeline-content">
-            <span class="timeline-date">2024 - 2026</span>
-            <h3>BTS SIO - Option SLAM</h3>
-            <p>
-              Formation en Services Informatiques aux Organisations avec
-              spécialisation en Solutions Logicielles et Applications Métiers.
-            </p>
+      <!-- PARCOURS -->
+      <section id="parcours" class="page-section">
+        <div class="section-label">Formation</div>
+        <h2 class="section-title">Mon parcours</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-date">2024–2026</div>
+            <div class="timeline-dot"></div>
+            <div class="timeline-body">
+              <h4>BTS SIO – Option SLAM</h4>
+              <p>
+                Formation en alternance. Services Informatiques aux
+                Organisations, spécialisation Solutions Logicielles et
+                Applications Métiers.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-date">2017–2020</div>
+            <div class="timeline-dot"></div>
+            <div class="timeline-body">
+              <h4>Baccalauréat Professionnel TFCA</h4>
+              <p>Technicien du Froid et Conditionnement de l'Air.</p>
+            </div>
           </div>
         </div>
-
-        <div class="timeline-item">
-          <div class="timeline-content">
-            <span class="timeline-date">2017 - 2020</span>
-            <h3>Baccalauréat</h3>
-            <p>
-              Obtention du baccalauréat professionnel Techicien du Froid et
-              Conditionnement de l'Air (TFCA).
-            </p>
-          </div>
-        </div>
-      </div>
-      <div style="text-align: center">
         <a
           href="documents/CV_MoussaTayaa_Alternance_Cyber.pdf"
-          class="cv-btn"
+          class="dl-btn"
           download
-          >📄 Télécharger mon CV</a
+          >↓ Télécharger mon CV</a
         >
-      </div>
-    </section>
+      </section>
 
-    <section id="competences" class="section" style="background: white">
-      <h2 class="section-title">Mes compétences</h2>
-      <div class="competences-grid">
-        <div class="competence-card">
-          <h3>💻 Développement</h3>
-          <ul>
-            <li>HTML/CSS</li>
-            <li>JavaScript</li>
-            <li>PHP/MySQL</li>
-            <li>Python</li>
-          </ul>
-        </div>
+      <!-- VEILLE CYBERSÉCURITÉ -->
+      <section id="veille" class="page-section">
+        <div class="section-label">Veille technologique</div>
+        <h2 class="section-title">Cybersécurité</h2>
 
-        <div class="competence-card">
-          <h3>🖥️ Systèmes & Réseaux</h3>
-          <ul>
-            <li>Linux (Debian, Ubuntu, Kali)</li>
-            <li>Virtualisation (VMware, Proxmox)</li>
-            <li>Réseau TCP/IP</li>
-          </ul>
-        </div>
-
-        <div class="competence-card">
-          <h3>🛠️ Outils</h3>
-          <ul>
-            <li>Git/GitHub</li>
-            <li>Bases de données (SQL)</li>
-            <li>VScode</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <section id="e5" class="section epreuve-section">
-      <h2 class="section-title">
-        Épreuve E5 - Support et mise à disposition de services informatiques
-      </h2>
-      <div class="epreuve-intro">
-        <p>
-          L'épreuve E5 évalue les compétences en support informatique, gestion
-          de parc et mise à disposition de services aux utilisateurs.
-        </p>
-      </div>
-      <div class="epreuve-cards">
-        <div class="epreuve-card">
-          <h3><span>🎯</span> Objectifs de l'épreuve</h3>
-          <ul>
-            <li>Gérer le patrimoine informatique</li>
-            <li>Répondre aux incidents et aux demandes d'assistance</li>
-            <li>Développer la présence en ligne de l'organisation</li>
-            <li>Travailler en mode projet</li>
-            <li>
-              Mettre à disposition des utilisateurs un service informatique
-            </li>
-          </ul>
-        </div>
-
-        <div class="epreuve-card">
-          <h3><span>📋</span> Compétences évaluées</h3>
-          <h4>Bloc 1 : Support et mise à disposition</h4>
-          <ul>
-            <li>Gérer le patrimoine informatique</li>
-            <li>Répondre aux incidents et demandes</li>
-            <li>Développer la présence en ligne</li>
-          </ul>
-          <h4>Bloc 2 : Cybersécurité</h4>
-          <ul>
-            <li>Protéger les données à caractère personnel</li>
-            <li>Préserver l'identité numérique</li>
-            <li>Sécuriser les équipements et usages</li>
-          </ul>
-        </div>
-
-        <div class="epreuve-card">
-          <h3><span>💼</span> Réalisations professionnelles</h3>
-          <p style="color: var(--gray); margin-bottom: 1rem">
-            Deux situations professionnelles au choix parmi :
-          </p>
-          <ul>
-            <li>Gestion de parc informatique</li>
-            <li>Support utilisateurs et helpdesk</li>
-            <li>Déploiement de services</li>
-            <li>Sécurisation des infrastructures</li>
-            <li>Mise en place de solutions de sauvegarde</li>
-          </ul>
-          <div class="epreuve-highlight">
-            <p>📊 Durée : 40 minutes (présentation + entretien)</p>
-          </div>
-        </div>
-      </div>
-      <div style="text-align: center">
-        <a href="documents/Tableau-synthese-E4.xlsx" class="cv-btn" download
-          >📄 Télécharger tableau de compétences</a
-        >
-      </div>
-    </section>
-
-    <section id="e6" class="section">
-      <h2 class="section-title">
-        Épreuve E6 - Conception et développement d'applications
-      </h2>
-      <div class="epreuve-intro">
-        <p>
-          L'épreuve E6 évalue les compétences en conception, développement et
-          maintenance d'applications informatiques (Option SLAM).
-        </p>
-      </div>
-      <div class="epreuve-cards">
-        <div class="epreuve-card">
-          <h3><span>🎯</span> Objectifs de l'épreuve</h3>
-          <ul>
-            <li>Concevoir et développer une solution applicative</li>
-            <li>Assurer la maintenance corrective ou évolutive</li>
-            <li>Gérer les données</li>
-            <li>Travailler en équipe</li>
-            <li>Respecter les normes et standards</li>
-          </ul>
-        </div>
-
-        <div class="epreuve-card">
-          <h3><span>📋</span> Compétences évaluées</h3>
-          <h4>Bloc 3 : Conception et développement</h4>
-          <ul>
-            <li>Concevoir et développer des composants logiciels</li>
-            <li>Gérer le patrimoine applicatif</li>
-            <li>Maintenir et améliorer des solutions</li>
-          </ul>
-          <h4>Technologies & méthodes</h4>
-          <ul>
-            <li>Langages de programmation</li>
-            <li>Bases de données</li>
-            <li>Méthodes agiles</li>
-          </ul>
-        </div>
-
-        <div class="epreuve-card">
-          <h3><span>💼</span> Projets réalisés</h3>
-          <p style="color: var(--gray); margin-bottom: 1rem">
-            Présentation de deux projets incluant :
-          </p>
-          <ul>
-            <li>Analyse des besoins</li>
-            <li>Conception (UML, MCD/MLD)</li>
-            <li>Développement de l'application</li>
-            <li>Tests et validation</li>
-            <li>Documentation technique</li>
-          </ul>
-          <div class="epreuve-highlight">
-            <p>📊 Durée : 40 minutes (présentation + entretien)</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="projets" class="section">
-      <h2 class="section-title">Mes projets</h2>
-      <div class="projets-grid">
-        <div class="projet-card">
-          <div class="projet-img">🏠</div>
-          <div class="projet-content">
-            <h3>Homelab</h3>
+        <div class="veille-theme">
+          <div class="veille-theme-icon">🔐</div>
+          <div class="veille-theme-text">
+            <h4>Thème : Cybersécurité</h4>
             <p>
-              Mise en place d’un homelab pour renforcer mes compétences en
-              systèmes et réseaux pendant mon BTS, et pour effectuer des tests
-              de sécurité dans des environnements isolés
+              Sources consultées : ANSSI, CVE Details, OWASP, The Hacker News,
+              NVD.
             </p>
-            <div class="tags">
-              <span class="tag">Proxmox</span>
-              <span class="tag">PfSense</span>
-              <span class="tag">VPN</span>
-              <span class="tag">Notion</span>
-            </div>
           </div>
         </div>
 
-        <div class="projet-card">
-          <div class="projet-img">🔧</div>
-          <div class="projet-content">
-            <h3>Projet 2</h3>
+        <div class="veille-list">
+          <!-- Article 1 – à compléter -->
+          <div class="veille-card placeholder">
+            <span class="edit-note">✏️ À compléter</span>
+            <h4>GLPI plugin tasklists CVE-2024-56801</h4>
             <p>
-              Description de votre deuxième projet avec les technologies
-              utilisées et les compétences développées.
+              Vulnérabilité : Blind SQL Injection <br />
+              Version : < 2.0.4 <br />
+              Criticité : CVSS 9.8 (critical)<br />
+              Publication : 30 Decembre 2024 <br />
+              Patch : >= 2.0.4 <br />
+              La faille Blind SQLi qui permet d’interoger la base de donnees
+              sans voir le resultat directement. Les reponses de la bases
+              doivent etre deduites par l’attaquant a partir du comportement de
+              l’application (code reponse HTTP, delai de chargement …). Tres
+              puissant pour les attaquants et dangereux pour les sites mais
+              reste beaucoup plus lent a exploiter qu’une injection SQL
+              classique. Pour y remedier il suffit de faire des requetes
+              preparer et parametrer dans le code source et de ne pas concatener
+              du code directement dans la requete SQL. <br />
+              Patch : Utilisation de la classe DBmysql du framwork GLPI
+              https://github.com/InfotelGLPI/tasklists/commit/6444026e3d2b8fb22d5e5ab03fb86056e1ac9e43
+              https://fossies.org/linux/glpi/src/DBmysql.php
             </p>
-            <div class="tags">
-              <span class="tag">Linux</span>
-              <span class="tag">Bash</span>
-              <span class="tag">MySQL</span>
-            </div>
+            <span class="veille-source"
+              ><strong>Source :</strong>
+              https://feedly.com/cve/CVE-2024-56801</span
+            >
           </div>
-        </div>
 
-        <div class="projet-card">
-          <div class="projet-img">📱</div>
-          <div class="projet-content">
-            <h3>Projet 3</h3>
+          <!-- Article 2 – à compléter -->
+          <div class="veille-card placeholder">
+            <span class="edit-note">✏️ À compléter</span>
+            <h4>Thème ou article 2</h4>
             <p>
-              Description de votre troisième projet mettant en avant vos
-              compétences techniques et organisationnelles.
+              Vulnérabilité : Remote Code Execution (RCE) <br />
+              Version : <= 1.2.4 <br />
+              Criticité : CVSS 7.2 (high) <br />
+              Publication : 4 Août 2025 <br />
+              Patch : >= 1.3 <br />
+              La faille MCPoison exploite le mécanisme de confiance des fichiers
+              de configuration MCP (Model Context Protocol) dans l'éditeur
+              Cursor. Lorsqu'un fichier de configuration MCP est présenté pour
+              la première fois, l'utilisateur doit l'approuver manuellement.
+              Cependant, toute modification ultérieure de ce même fichier est
+              automatiquement considérée comme fiable, sans aucune nouvelle
+              validation. Un attaquant ayant accès en écriture à un dépôt GitHub
+              partagé (ou capable d'écrire localement sur la machine cible) peut
+              donc remplacer silencieusement une configuration MCP inoffensive
+              par des commandes malveillantes. Ces commandes s'exécutent
+              automatiquement à chaque ouverture de l'IDE, sans déclencher la
+              moindre alerte. C'est une attaque particulièrement dangereuse car
+              elle cible directement l'environnement de travail du développeur,
+              est persistante (s'exécute à chaque lancement de Cursor), et
+              totalement silencieuse (aucun avertissement affiché). Patch : Mise
+              à jour vers Cursor 1.3
+              https://github.com/advisories/GHSA-24mc-g4xr-4395
             </p>
-            <div class="tags">
-              <span class="tag">Python</span>
-              <span class="tag">API</span>
-              <span class="tag">Git</span>
-            </div>
+            <span class="veille-source"
+              ><strong>Source :</strong>
+              https://nvd.nist.gov/vuln/detail/CVE-2025-54136</span
+            >
           </div>
-        </div>
-      </div>
-    </section>
 
-    <section id="veille" class="section">
-      <h2 class="section-title">Veille technologique</h2>
-      <div class="veille-grid">
-        <div class="veille-card">
-          <div class="veille-icon">🤖</div>
-          <div class="veille-content">
-            <h3>Intelligence Artificielle</h3>
+          <!-- Article 3 – à compléter -->
+          <div class="veille-card placeholder">
+            <span class="edit-note">✏️ À compléter</span>
+            <h4>Thème ou article 3</h4>
             <p>
-              Suivi de l'évolution des IA génératives, des modèles de langage
-              (LLM) et de leur impact sur le développement logiciel.
+              Résume ta recherche : sujet, points clés retenus, pertinence pour
+              la cybersécurité.
             </p>
-            <p class="veille-sources">
-              <strong>Sources :</strong> OpenAI Blog, Hugging Face, Papers With
-              Code
-            </p>
+            <span class="veille-source"
+              ><strong>Source :</strong> à renseigner</span
+            >
           </div>
         </div>
-
-        <div class="veille-card">
-          <div class="veille-icon">🐳</div>
-          <div class="veille-content">
-            <h3>Conteneurisation</h3>
-            <p>
-              Étude des technologies Docker et Kubernetes pour le déploiement et
-              l'orchestration d'applications conteneurisées.
-            </p>
-            <p class="veille-sources">
-              <strong>Sources :</strong> Docker Blog, Kubernetes.io, CNCF
-            </p>
-          </div>
-        </div>
-
-        <div class="veille-card">
-          <div class="veille-icon">🔒</div>
-          <div class="veille-content">
-            <h3>Cybersécurité</h3>
-            <p>
-              Veille sur les nouvelles menaces, vulnérabilités (CVE) et bonnes
-              pratiques en matière de sécurité informatique.
-            </p>
-            <p class="veille-sources">
-              <strong>Sources :</strong> ANSSI, CVE Details, OWASP
-            </p>
-          </div>
-        </div>
-
-        <div class="veille-card">
-          <div class="veille-icon">☁️</div>
-          <div class="veille-content">
-            <h3>Cloud Computing</h3>
-            <p>
-              Suivi des services cloud (AWS, Azure, GCP) et des architectures
-              serverless pour le déploiement d'applications modernes.
-            </p>
-            <p class="veille-sources">
-              <strong>Sources :</strong> AWS Blog, Azure Updates, Google Cloud
-              Blog
-            </p>
-          </div>
-        </div>
-
-        <div class="veille-card">
-          <div class="veille-icon">⚡</div>
-          <div class="veille-content">
-            <h3>Frameworks JavaScript</h3>
-            <p>
-              Veille sur l'écosystème JavaScript/TypeScript avec les évolutions
-              de React, Vue, Angular et les nouveaux frameworks émergents.
-            </p>
-            <p class="veille-sources">
-              <strong>Sources :</strong> Dev.to, JavaScript Weekly, GitHub
-              Trending
-            </p>
-          </div>
-        </div>
-
-        <div class="veille-card">
-          <div class="veille-icon">🔄</div>
-          <div class="veille-content">
-            <h3>DevOps & CI/CD</h3>
-            <p>
-              Exploration des pratiques DevOps, pipelines CI/CD, GitOps et
-              automatisation des déploiements.
-            </p>
-            <p class="veille-sources">
-              <strong>Sources :</strong> DevOps.com, GitLab Blog, Jenkins.io
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- <section id="contact" class="section">
-      <h2 class="section-title">Me contacter</h2>
-      <form class="contact-form" onsubmit="handleSubmit(event)">
-        <div class="form-group">
-          <label for="nom">Nom</label>
-          <input type="text" id="nom" name="nom" required />
-        </div>
-        <div class="form-group">
-          <label for="email">Email</label>
-          <input type="email" id="email" name="email" required />
-        </div>
-        <div class="form-group">
-          <label for="sujet">Sujet</label>
-          <input type="text" id="sujet" name="sujet" required />
-        </div>
-        <div class="form-group">
-          <label for="message">Message</label>
-          <textarea id="message" name="message" required></textarea>
-        </div>
-        <button type="submit" class="submit-btn">Envoyer le message</button>
-      </form>
-    </section> -->
+      </section>
+    </main>
 
     <footer>
-      <p>&copy; 2025 Portfolio BTS SIO - Tous droits réservés</p>
+      © 2025 – Noham Moussa Tayaa – Portfolio BTS SIO SLAM – Épreuve E5
     </footer>
 
     <script>
-      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
-        anchor.addEventListener("click", function (e) {
-          e.preventDefault();
-          const target = document.querySelector(this.getAttribute("href"));
-          if (target) {
-            target.scrollIntoView({ behavior: "smooth", block: "start" });
-          }
-        });
-      });
+      // Surlignage automatique de la section active dans la sidebar
+      const sections = document.querySelectorAll("[id]");
+      const links = document.querySelectorAll(".nav-links a");
 
-      function handleSubmit(e) {
-        e.preventDefault();
-        alert(
-          "Formulaire soumis ! Note: Pour un formulaire fonctionnel, vous devrez configurer un service backend (ex: Formspree, EmailJS) ou utiliser l'API GitHub pour créer des issues.",
-        );
-        e.target.reset();
-      }
+      const obs = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((e) => {
+            if (e.isIntersecting) {
+              links.forEach((l) => l.classList.remove("active"));
+              const a = document.querySelector(
+                `.nav-links a[href="#${e.target.id}"]`,
+              );
+              if (a) a.classList.add("active");
+            }
+          });
+        },
+        { threshold: 0.35 },
+      );
 
-      const observerOptions = {
-        threshold: 0.1,
-        rootMargin: "0px 0px -100px 0px",
-      };
-
-      const observer = new IntersectionObserver((entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            entry.target.style.opacity = "1";
-            entry.target.style.transform = "translateY(0)";
-          }
-        });
-      }, observerOptions);
-
-      document
-        .querySelectorAll(
-          ".competence-card, .projet-card, .timeline-item, .epreuve-card, .veille-card",
-        )
-        .forEach((el) => {
-          el.style.opacity = "0";
-          el.style.transform = "translateY(20px)";
-          el.style.transition = "opacity 0.6s ease, transform 0.6s ease";
-          observer.observe(el);
-        });
+      sections.forEach((s) => obs.observe(s));
     </script>
   </body>
 </html>
